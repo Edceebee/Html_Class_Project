@@ -1,0 +1,16 @@
+#square{
+    width: 800px;
+    height: 3000px;
+    background-color: #ff0000;
+    position: absolute;
+    padding: 10px;
+    top: 15%;
+    left: 30%;
+    bottom: 30%;
+    margin: -70px 0 0 -170px;
+}
+
+#name {
+    font-weight:300;
+    tab-index: 20;
+}
