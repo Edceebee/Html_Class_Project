@@ -1,0 +1,50 @@
+
+body {
+    background: #eee;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px
+}
+
+#rectangle {
+    width: 1300px;
+    height: 650px;
+    background-color: peachpuff;
+    /*border-top: 3px solid red;*/
+    /*float: left;*/
+    /*shape-outside: inset(1% round 45%);*/
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Images/bg-pattern-desktop.svg");
+}
+#innerRectangle{
+    width: 600px;
+    height: inherit;
+    background-color: blueviolet;
+}
+
+#innerRectangle{
+    float: right;
+    height: inherit;
+    width: 600px
+}
+#innerRectangleII{
+    height: inherit;
+    width: 400px;
+    /*background-color: blue;*/
+    position: absolute;
+    padding: 10px;
+    top: 20%;
+    left: 25%;
+    bottom: 20%;
+    margin: -70px 0 0 -170px;
+}
+#you{
+    border-radius: 50px
+}
+
+#headerTag{
+    /*style ="color: hsl(0, 36%, 70%);"*/
+    color: hsl(0,36%, 70%);
+    font-weight: 50;
+}
